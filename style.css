@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&display=swap");
+
+body {
+  background-color: #e0ffff;
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  line-height: 1.6em;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+img {
+  width: 25%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+}
+
+/* Cards */
+
+.card-dark-grey {
+  background: #f9f6ee;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-grey {
+  background: #f9f6ee;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  text-align: center;
+}
+
+/* Button */
+
+.myButton {
+  box-shadow: 3px 2px 6px -12px #899599;
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: #ededed;
+  border-radius: 15px;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  color: #312f2e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  padding: 7px 25px;
+  margin-top: 30px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  font-size: 25px;
+}
+
+/* Media */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
