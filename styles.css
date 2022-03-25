@@ -1,79 +1,72 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 
 body {
-  background-color: #e0ffff;
+  background-color: #afd3d3;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   text-align: center;
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 35px;
-  padding-top: 10px;
+  font-size: 40px;
+  margin: auto;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
-  line-height: 1.6em;
-}
-
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 24px;
-}
-
-img {
-  width: 25%;
-  border-radius: 50%;
+  font-size: 22px;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+img {
+  border-radius: 50%;
+  margin: 30px;
+  width: 30%;
+}
+
 p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 1.5em;
   text-align: center;
 }
 
 .container {
-  margin: 0 auto;
-  width: 700px;
+  margin: 40px auto;
+  width: 600px;
 }
 
 /* Cards */
 
 .card-dark-grey {
-  background: #f9f6ee;
-  padding: 20px;
-  border: 1px solid lightgrey;
-  border-radius: 10px;
-  text-align: center;
+  background: #f5f0e1;
+  border: 2px solid darkgrey;
+  border-radius: 20px;
   margin-bottom: 30px;
-}
-
-.card-grey {
-  background: #f9f6ee;
-  border-radius: 10px;
-  padding: 30px;
-  border: 1px solid lightgrey;
+  padding: 40px;
   text-align: center;
 }
 
 /* Button */
 
 .myButton {
-  box-shadow: 3px 2px 6px -12px #899599;
   background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
   background-color: #ededed;
-  border-radius: 15px;
-  border: 1px solid #d6bcd6;
-  display: inline-block;
-  cursor: pointer;
+  border: 2px solid darkgrey;
+  border-radius: 20px;
+  box-shadow: 3px 2px 6px -12px darkgrey;
   color: #312f2e;
-  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  display: inline-block;
   font-size: 17px;
+  font-weight: bold;
+  margin: 20px;
   padding: 7px 25px;
-  margin-top: 30px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #e1e2ed;
 }
@@ -94,9 +87,11 @@ p {
   text-align: center;
 }
 
-.social-icon {
-  margin: 20px 10px;
-  font-size: 25px;
+i {
+  color: #312f2e;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 15px;
 }
 
 /* Media */
